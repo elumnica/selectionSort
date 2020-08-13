@@ -1,6 +1,11 @@
 /* 
 Prompt: Write a function that takes in an array of integers and returns a sorted version of that array. 
 Use the Selection Sort algo to sort the array.
+
+Best: O(n^2) time | O(1) space complexities
+Average: O(n^2) time | O(1) space complexities
+Worst: O(n^2) time | O(1) space complexities
+
 */
 
 function selectionSort (array){
@@ -13,6 +18,7 @@ function selectionSort (array){
         swap(startIdx, smallestIdx, array);
         startIdx++;
     }
+
     return array;
 }
 
